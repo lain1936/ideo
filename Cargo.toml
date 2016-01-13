@@ -1,0 +1,22 @@
+[package]
+name = "ideo"
+version = "0.1.0"
+authors = ["Administrator"]
+[dependencies]
+iron="0.2.6"
+mount = "0.0.9"
+staticfile = "0.1.0"
+router = "0.1.0"
+handlebars-iron = "0.10.2"
+mdbook = "0.0.6"
+notify = "^2.4.1"
+time = "^0.1.33"
+rustc-serialize = "0.3.16"
+ohmers = "0.1.0"
+redis = "0.5.0"
+rustorm = "0.4.2"
+codegenta = "0.0.7"
+
+[features]
+default = ["watch"]
+watch = ["handlebars-iron/watch"]
